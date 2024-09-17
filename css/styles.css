@@ -1,0 +1,105 @@
+/* Body changes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Garamond, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 2vh;
+}
+
+
+/* sticking the footer to the bottom */
+main {
+    height: 90.5vh;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/* For the navigation bar */
+.header2 {
+    margin-top: 20px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;;
+}
+
+.header2  a.active {
+    text-decoration: underline;
+}
+  
+.header2 li {
+    margin: 0 15px;
+}
+  
+.header2 li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.header2 li a:hover {
+    font-size: large;
+}
+
+/* Image styling */
+
+#img1 {
+    margin-left: 20px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 25%;
+    height: 75%;
+}
+
+.imageCollage {
+    float: center;
+    justify-content: center;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 20%;
+    height: 55%;
+}
+
+/* footer2 for paintings.html */
+
+.footer2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.imagesMain {
+    width: 65%;
+}
